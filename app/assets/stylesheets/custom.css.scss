@@ -1,0 +1,29 @@
+@import "bootstrap";
+
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin: 45px, 100px, 0px, 100px;
+
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+/* forms */
+
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  width: 100%;
+  margin-bottom: 15px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+input {
+  height: auto !important;
+}
