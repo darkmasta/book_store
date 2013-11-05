@@ -1,4 +1,10 @@
-<h2>Login</h2>
+<section class="section">
+<div class="container-fluid">
+  <div class="row-fluid title">
+    <div class="span5">
+      <h2>Giris Yap</h2>
+    </div>
+  </div>  
 
 <%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
   <div><%= f.label :email %><br />
@@ -8,10 +14,13 @@
   <%= f.password_field :password %></div>
 
   <% if devise_mapping.rememberable? -%>
-    <div><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
+    <div ><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
   <% end -%>
 
-  <div><%= f.submit "Login" %></div>
+  <div><%= f.submit "Giris" %></div>
 <% end %>
 
 <%= render "devise/shared/links" %>
+
+</div>
+</section>

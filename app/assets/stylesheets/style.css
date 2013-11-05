@@ -39,13 +39,13 @@ p {
 }
 
 a {
-	color: #F1F1F1;
+	color: #0088CC;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #F5F5F5;
-	text-decoration: none;
+	color: #0088CC;
+	text-decoration: underline;
 }
 
 
